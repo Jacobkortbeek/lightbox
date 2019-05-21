@@ -16,7 +16,7 @@ if( have_rows('sections') ):
 
 else :
 
-    // no layouts found
+    get_template_part( 'partials/hero', 'hero' );
 
 endif;
 
