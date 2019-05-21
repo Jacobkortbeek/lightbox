@@ -8,7 +8,7 @@ if( have_rows('sections') ):
 
         if( get_row_layout() == 'hero' ):
 
-        	?> <h1>this is the hero</h1> <?php
+        	get_template_part( 'partials/hero', 'hero' )
 
         endif;
 
