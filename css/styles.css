@@ -97,6 +97,9 @@
 .padAll {
   padding: 2em; }
 
+.padLeft {
+  padding-left: 5em; }
+
 .test-red {
   background-color: red; }
 
