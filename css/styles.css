@@ -48,11 +48,11 @@
   -moz-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-justify-content: space-evenly;
-  -moz-justify-content: space-evenly;
-  -ms-justify-content: space-evenly;
-  justify-content: space-evenly;
-  -ms-flex-pack: space-evenly;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
   -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
