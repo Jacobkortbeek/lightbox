@@ -1,12 +1,10 @@
 <div class="portfolio" style="background-image: url('<?php the_sub_field( 'background_image' ); ?>">
-  <div class="container-fluid fullHeight fullCenterColumn">
+  <div class="container-fluid fullHeight">
     <div class="row">
-      <div class="col-md-6 offset-md-1">
+      <div class="col-md-6">
         <?php the_sub_field( 'text_content' ); ?>
+        <a href="<?php the_sub_field( 'button_link' ); ?>"><?php the_sub_field( 'button_text' ); ?></a>
       </div>
-    </div>
-    <div class="row">
-      <a href="<?php the_sub_field( 'button_link' ); ?>"><?php the_sub_field( 'button_text' ); ?></a>
     </div>
   </div>
 </div>
