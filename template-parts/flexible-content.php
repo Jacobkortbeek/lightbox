@@ -8,7 +8,7 @@ if( have_rows('sections') ):
 
         if( get_row_layout() == 'hero' ):
 
-        	get_template_part( './hero', 'none' );
+        	get_template_part( '/hero', 'none' );
 
         endif;
 
