@@ -1,6 +1,6 @@
 <div class="portfolio" style="background-image: url('<?php the_sub_field( 'background_image' ); ?>">
   <div class="container-fluid">
-    <div class="row">
+    <div class="row fullCenterColumn">
       <div class="col-md-6">
         <p><?php the_sub_field( 'text_content' ); ?></p>
       </div>
