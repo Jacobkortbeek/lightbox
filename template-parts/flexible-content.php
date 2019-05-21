@@ -8,7 +8,11 @@ if( have_rows('sections') ):
 
         if( get_row_layout() == 'hero' ):
 
-        	get_template_part( 'partials/hero', 'hero' );
+        	get_template_part( 'partials/hero' );
+
+        elseif( get_row_layout() == 'portfolio' ):
+
+         get_template_part( 'partials/portfolio', 'portfolio' );
 
         endif;
 
