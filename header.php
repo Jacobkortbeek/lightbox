@@ -7,3 +7,6 @@
     <title><?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?></title>
   </head>
   <body>
+    <header>
+      This is the navigations.
+    </header>

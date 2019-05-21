@@ -1,15 +1,3 @@
 <?php get_header(); ?>
-<div class="container">
-  <div class="row">
-    <div class="col-4">
-      One of three columns
-    </div>
-    <div class="col-4">
-      One of three columns
-    </div>
-    <div class="col-4">
-      One of three columns
-    </div>
-  </div>
-</div>
+<?php get_template_part( 'template-parts/hero', 'none' ); ?>
 <?php get_footer(); ?>
