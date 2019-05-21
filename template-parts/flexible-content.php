@@ -8,7 +8,7 @@ if( have_rows('sections') ):
 
         if( get_row_layout() == 'hero' ):
 
-        	get_template_part( 'partials/hero', 'hero' );
+        	the_sub_field('hero_title');
 
         endif;
 
@@ -16,7 +16,7 @@ if( have_rows('sections') ):
 
 else :
 
-    get_template_part( 'partials/hero', 'hero' );
+    // no layouts found
 
 endif;
 
