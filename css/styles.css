@@ -73,10 +73,10 @@
   -ms-justify-content: center;
   justify-content: center;
   -ms-flex-pack: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
   -webkit-align-content: center;
   -moz-align-content: center;
   -ms-align-content: center;
