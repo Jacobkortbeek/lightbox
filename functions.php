@@ -8,7 +8,7 @@ function wpt_theme_styles() {
 add_action( 'wp_enqueue_scripts', 'wpt_theme_styles' );
 
 function wpt_theme_js() {
-  wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/css/bootstrap.min.js', array('jquery'), ' ', true );
+  wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), ' ', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'wpt_theme_js' );
