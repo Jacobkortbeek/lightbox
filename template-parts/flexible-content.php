@@ -8,7 +8,7 @@ if( have_rows('sections') ):
 
         if( get_row_layout() == 'hero' ):
 
-        	the_sub_field('hero_title');
+        	?> <h1>this is the hero</h1> <?php
 
         endif;
 
