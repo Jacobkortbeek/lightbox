@@ -13,7 +13,7 @@ if( have_rows('sections') ):
 
       elseif( get_row_layout() == 'portfolio' ):
 
-        get_template_part( 'partials/portfolio' );
+        get_template_part( 'template-parts/partials/portfolio' );
 
       endif;
 
