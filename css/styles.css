@@ -5,7 +5,10 @@
   .hero .hero-subtitle {
     padding-top: 2em; }
 
-.hero {
+.portfolio {
+  height: 100vh; }
+
+.hero, .portfolio {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
