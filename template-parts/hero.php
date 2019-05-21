@@ -3,7 +3,7 @@
     <div class="row">
       <div class="hero-title">
         hello hello
-        <?php the_sub_field('text'); ?>
+        <?php the_sub_field('hero_title'); ?>
       </div>
     </div>
   </div>
