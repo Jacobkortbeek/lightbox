@@ -1,5 +1,29 @@
 <?php get_header(); ?>
-<?php get_template_part( 'template-parts/flexible', 'content' ); ?>
-<?php get_template_part( 'template-parts/partisl/hero' ); ?>
-hello
+<?php
+
+// check if the flexible content field has rows of data
+if( have_rows('sections') ):
+
+     // loop through the rows of data
+    while ( have_rows('sections') ) : the_row();
+
+      if( get_row_layout() == 'hero' ):
+
+      	get_template_part( 'template-parts/partials/hero' );
+
+      elseif( get_row_layout() == 'portfolio' ):
+
+        get_template_part( 'partials/portfolio' );
+
+      endif;
+
+    endwhile;
+
+else :
+
+    // no layouts found
+
+endif;
+
+?>
 <?php get_footer(); ?>
