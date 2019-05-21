@@ -12,7 +12,8 @@
     </div>
     <div class="row">
       <div class="hero-play-button col-md-8 offset-md-3 mx-auto">
-        <h3><?php the_sub_field('play_button'); ?></h3>
+        <img src="<?php the_sub_field('play_button'); ?>" alt="play button">
+
       </div>
     </div>
     <div class="row">
@@ -22,7 +23,7 @@
     </div>
     <div class="row">
       <div class="hero-title col-md-8 offset-md-3 mx-auto">
-        <h3><?php the_sub_field('down_arrow_image'); ?></h3>
+        <img src="<?php the_sub_field('down_arrow_image'); ?>" alt="down arrow">
       </div>
     </div>
   </div>
