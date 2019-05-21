@@ -4,3 +4,72 @@
   background-position: center;
   background-size: cover;
   color: white; }
+
+.fullCenter {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -moz-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -moz-align-content: center;
+  -ms-align-content: center;
+  align-content: center; }
+
+.round {
+  border-radius: 1000px; }
+
+.pad-top {
+  padding-top: 10em; }
+
+.pad-bottom {
+  padding-bottom: 3em; }
+
+.pad-top-cont {
+  padding-top: 5em; }
+
+.padAll {
+  padding: 2em; }
+
+.test-red {
+  background-color: red; }
+
+.test-blue {
+  background-color: blue; }
+
+.margin-bot {
+  margin-bottom: 3em; }
+
+.margin-top {
+  margin-top: 10em; }
+
+.margin-topBot {
+  margin-top: 3em;
+  margin-bottom: 3em; }
+
+.curvedCorner {
+  border-radius: 10px; }
+
+.marginLeft {
+  margin-left: 1em; }
+
+@media only screen and (min-width: 1320px) {
+  .dNonePc {
+    display: none !important; } }
