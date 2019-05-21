@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="hero-play-button col-md-8 offset-md-3 mx-auto pad-top-cont">
+      <div class="hero-play-button col-md-8 offset-md-3 mx-auto fullCenter pad-top-cont">
         <img src="<?php the_sub_field('play_button'); ?>" alt="play button">
 
       </div>
