@@ -1,13 +1,13 @@
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      1
+      One of three columns
     </div>
     <div class="col-sm">
-      2
+      One of three columns
     </div>
     <div class="col-sm">
-      3
+      One of three columns
     </div>
   </div>
 </div>
