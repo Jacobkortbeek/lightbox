@@ -1,12 +1,14 @@
 .hero {
   height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   color: white;
   text-align: center; }
   .hero .hero-subtitle {
     padding-top: 2em; }
+
+.hero {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 .fullCenter {
   display: -webkit-box;
