@@ -1,4 +1,4 @@
-<div class="portfolio">
+<div class="portfolio" style="background-image: url('<?php the_sub_field( 'background_image' ); ?>">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6">
