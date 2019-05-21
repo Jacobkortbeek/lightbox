@@ -2,7 +2,7 @@
 
 // check if the flexible content field has rows of data
 if( have_rows('sections') ):
-
+    
      // loop through the rows of data
     while ( have_rows('sections') ) : the_row();
 
@@ -12,7 +12,7 @@ if( have_rows('sections') ):
 
         elseif( get_row_layout() == 'portfolio' ):
 
-         get_template_part( 'partials/portfolio', 'portfolio' );
+         get_template_part( 'partials/portfolio' );
 
         endif;
 
