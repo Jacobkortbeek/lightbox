@@ -2,7 +2,7 @@
   <div class="container-fluid fullHeight fullCenterColumn">
     <div class="row">
       <div class="col-md-6 offset-md-1">
-        <p><?php the_sub_field( 'text_content' ); ?></p>
+        <?php the_sub_field( 'text_content' ); ?>
       </div>
     </div>
     <div class="row">
