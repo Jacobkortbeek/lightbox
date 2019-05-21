@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="hero-title col-md-8 offset-md-3 mx-auto pad-top">
+      <div class="hero-title col-md-8 offset-md-3 mx-auto fullCenter pad-top">
         <img src="<?php the_sub_field('down_arrow_image'); ?>" alt="down arrow">
       </div>
     </div>
