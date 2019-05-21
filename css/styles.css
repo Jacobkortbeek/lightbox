@@ -5,6 +5,8 @@
   background-size: cover;
   color: white;
   text-align: center; }
+  .hero .hero-subtitle {
+    padding-top: 2em; }
 
 .fullCenter {
   display: -webkit-box;
