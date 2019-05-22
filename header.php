@@ -9,7 +9,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#"> <img src="<?php the_field('logo', 'option'); ?>" alt="logo"> </a>
   <button class="navbar-toggler text-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -23,6 +23,16 @@
         <a class="nav-link" href="#">Link</a>
       </li>
     </ul>
+    <?php
+
+  				      $defaults = array(
+  				        'container' => 'ul',
+  				        'theme_location' => 'primary-menu',
+  				        'menu_class' => 'navbar-nav'
+  				      );
+
+  				      wp_nav_menu( $defaults );
+
   </div>
 </nav>
     </header>
