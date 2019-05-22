@@ -29,10 +29,7 @@
                   'container' => 'ul',
   				        'menu_class' => 'navbar-nav ml-auto justify-content-end',
   				        'theme_location' => 'primary-menu',
-                  'before' => '<li class="nav-item active">
-                    <a class="nav-link" href="#">',
-                  'after' => '</a>
-                </li>'
+                  'items_wrap' => '<div class="wrap">%3$s</div>'
   				      );
 
   				      wp_nav_menu( $defaults );
