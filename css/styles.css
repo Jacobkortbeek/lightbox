@@ -186,12 +186,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
-  .about .leftImg {
-    background-color: red; }
-    .about .leftImg img {
-      background-color: blue;
-      height: auto;
-      width: auto; }
   .about a {
     color: black;
     border-bottom: 0.05em solid black; }
