@@ -31,12 +31,12 @@
     ?>
     </div>
     <?php if( $footer ) : ?>
-    <div class="row">
-      <div class="col-md-2">
+    <div class="row copyright">
+      <div class="col-md-2 lightbox-logo">
         <img src="<?php echo $footer['lightbox_logo']; ?>" alt="">
       </div>
       <div class="col-md-10">
-        ©2019 Interiors by Dapa | <a href="<?php $footer['erms_and_conditions_page_link']; ?>">Terms & Conditons</a> | <a href="<?php $footer['privacy_policy_page_link']; ?>">Privacy Policy</a>
+        ©2019 Interiors by Dapa | <a href="<?php echo $footer['terms_and_conditions_page_link']; ?>">Terms & Conditons</a> | <a href="<?php echo $footer['privacy_policy_page_link']; ?>">Privacy Policy</a>
       </div>
     </div>
   <?php endif; ?>
