@@ -9,7 +9,9 @@
           <div class="fontLg">
             <?php the_sub_field( 'founders_quote' ); ?>
           </div>
-        <img class="float-right" src="<?php the_sub_field( 'close_quote_image' ); ?>" alt="">
+          <div class="float-left">
+            <img class="float-right" src="<?php the_sub_field( 'close_quote_image' ); ?>" alt="">
+          </div>
         <div class="prox fontSm">
         <?php the_sub_field( 'quote_credit' ); ?>
         <?php the_sub_field( 'about_text' ); ?>
