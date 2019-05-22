@@ -190,7 +190,7 @@ header nav {
     header nav a:hover {
       cursor: pointer;
       color: #E8E8E8;
-      border-bottom: 1em solid white; }
+      border-bottom: 0.25em solid white; }
   header nav .navbar-brand img {
     height: 5em;
     width: auto; }
