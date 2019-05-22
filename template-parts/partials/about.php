@@ -4,7 +4,7 @@
       <div class="col-lg-6 leftImg">
         <img src="<?php the_sub_field( 'founders_image' ); ?>" alt="Founders Images">
       </div>
-      <div class="col-lg-4 fullCenterColumnSpace">
+      <div class="col-lg-4 rightContent">
         <img src="<?php the_sub_field( 'open_quote_image' ); ?>" alt="">
         <?php the_sub_field( 'founders_quote' ); ?>
         <img src="<?php the_sub_field( 'close_quote_image' ); ?>" alt="">
