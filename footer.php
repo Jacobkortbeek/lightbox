@@ -11,7 +11,7 @@
 
 
     <div class="row">
-      <?php echo $footer['office_address']; ?> | <?php echo $footer['office_address']; ?> | <?php echo $footer['office_address']; ?>
+      <?php echo $footer['office_address']; ?> | <?php echo $footer['phone_number']; ?> | <?php echo $footer['email_address']; ?>
     </div>
 
     <?php endif; ?>
