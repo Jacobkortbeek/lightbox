@@ -222,7 +222,7 @@ footer {
     height: 2em;
     width: auto; }
 
-a {
+a:hover {
   text-decoration: none; }
 
 .fontLg {
