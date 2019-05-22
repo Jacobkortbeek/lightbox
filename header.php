@@ -26,7 +26,13 @@
     <?php
 
   				      $defaults = array(
-  				        'theme_location' => 'primary-menu'
+                  'container' => 'ul',
+  				        'menu_class' => 'navbar-nav ml-auto justify-content-end',
+  				        'theme_location' => 'primary-menu',
+                  'before' => '<li class="nav-item active">
+                    <a class="nav-link" href="#">',
+                  'after' => '/a>
+                </li>'
   				      );
 
   				      wp_nav_menu( $defaults );
