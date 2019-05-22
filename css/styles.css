@@ -187,6 +187,9 @@ header nav {
   opacity: 75%; }
   header nav a {
     color: white; }
+  header nav .navbar-brand img {
+    height: 2em;
+    width: auto; }
 
 footer {
   background-color: #0F161D;
