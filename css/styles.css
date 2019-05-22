@@ -188,5 +188,5 @@ footer {
   background-color: #0F161D;
   color: #ffffff; }
   footer .footerLogo img {
-    height: auto;
-    width: 30%; }
+    height: 30%;
+    width: auto; }
