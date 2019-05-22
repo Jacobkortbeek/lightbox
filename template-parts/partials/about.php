@@ -25,7 +25,7 @@
         <div class="row padAll">
           <a href="<?php the_sub_field('button_link'); ?>"><?php the_sub_field('button_text'); ?></a>
         </div>
-      </div>
+      </div>  
       </div>
     </div>
     </div>
