@@ -222,6 +222,9 @@ footer {
     height: 2em;
     width: auto; }
 
+a {
+  text-decoration: none; }
+
 .fontLg {
   font-size: 2em; }
 
