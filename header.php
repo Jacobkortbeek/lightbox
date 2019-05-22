@@ -29,7 +29,6 @@
                   'container' => 'ul',
   				        'menu_class' => 'navbar-nav ml-auto justify-content-end',
   				        'theme_location' => 'primary-menu',
-                  'items_wrap' => '<div class="wrap">%3$s</div>'
   				      );
 
   				      wp_nav_menu( $defaults );
