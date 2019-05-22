@@ -31,7 +31,7 @@
   				        'theme_location' => 'primary-menu',
                   'before' => '<li class="nav-item active">
                     <a class="nav-link" href="#">',
-                  'after' => '/a>
+                  'after' => '</a>
                 </li>'
   				      );
 
