@@ -150,7 +150,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: red; }
+  background-color: red;
+  overflow: hidden; }
   .about .leftImg img {
     height: 50%;
     width: auto; }
