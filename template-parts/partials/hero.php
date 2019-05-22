@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="hero-play-text col-md-8 offset-md-3 mx-auto pad-top-cont">
+      <div class="hero-play-text col-md-8 offset-md-3 mx-auto pad-top-cont prox">
         <h3><?php the_sub_field('play_video_text'); ?></h3>
       </div>
     </div>
