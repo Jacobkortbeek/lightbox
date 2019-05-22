@@ -1,5 +1,5 @@
 <footer>
-  <div class="container-fluid fullCenter">
+  <div class="container-fluid fullCenterColumn">
     <div class="row footerLogo padAll ">
       <img src="<?php the_field( 'logo', 'option' ); ?>" alt="">
     </div>
