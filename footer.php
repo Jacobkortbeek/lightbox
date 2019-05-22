@@ -30,15 +30,16 @@
         endwhile;
     ?>
     </div>
-
+    <?php if( $footer ) : ?>
     <div class="row">
       <div class="col-md-2">
-        <a href="#" target="_blank"> <img src="" alt=""></a>
+        <img src="<?php $footer['lightbox_logo']['url']; ?>" alt="">
       </div>
       <div class="col-md-10">
-        ©2019 Interiors by Dapa | <a href="#">Terms & Conditons</a> | <a href="#">Privacy Policy</a>
+        ©2019 Interiors by Dapa | <a href="<?php $footer['erms_and_conditions_page_link']; ?>">Terms & Conditons</a> | <a href="<?php $footer['privacy_policy_page_link']; ?>">Privacy Policy</a>
       </div>
     </div>
+  <?php endif; ?>
 
   </div>
 <?php wp_footer(); ?>
