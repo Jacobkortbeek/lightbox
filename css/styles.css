@@ -183,7 +183,8 @@
     width: auto; }
 
 header nav {
-  background-color: black; }
+  background-color: #11161E;
+  opacity: 75%; }
 
 footer {
   background-color: #0F161D;
