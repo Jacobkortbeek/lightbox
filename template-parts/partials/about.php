@@ -9,7 +9,7 @@
           <div class="fontLg">
             <?php the_sub_field( 'founders_quote' ); ?>
           </div>
-          <div class="float-left">
+          <div class="float-right">
             <img class="float-right" src="<?php the_sub_field( 'close_quote_image' ); ?>" alt="">
           </div>
         <div class="prox fontSm">
