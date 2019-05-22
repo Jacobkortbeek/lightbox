@@ -10,7 +10,7 @@
     ?>
 
 
-    <div class="row">
+    <div class="row padAll">
       <?php echo $footer['office_address']; ?> | <?php echo $footer['phone_number']; ?> | <?php echo $footer['email_address']; ?>
     </div>
 
