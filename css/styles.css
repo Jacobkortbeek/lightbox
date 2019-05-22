@@ -187,8 +187,11 @@ header nav {
   opacity: 75%; }
   header nav a {
     color: white; }
+    header nav a:hover {
+      cursor: pointer;
+      color: #E8E8E8; }
   header nav .navbar-brand img {
-    height: 2em;
+    height: 5em;
     width: auto; }
 
 footer {
