@@ -14,7 +14,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+  <div class="navigation collapse navbar-collapse text-right" id="navbarSupportedContent">
     <!-- <ul class="navbar-nav ml-auto justify-content-end">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>

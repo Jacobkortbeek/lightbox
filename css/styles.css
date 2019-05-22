@@ -185,9 +185,9 @@
 header nav {
   background-color: #11161E;
   opacity: 75%; }
-  header nav a {
+  header nav .navigation a {
     color: white; }
-    header nav a:hover {
+    header nav .navigation a:hover {
       cursor: pointer;
       color: #E8E8E8;
       border-bottom: 0.05em solid white; }
