@@ -28,13 +28,6 @@
       </div>
       </div>
     </div>
-      <!-- <div class="col-lg-4 offset-md-2 ">
-
-
-
-
-
-      </div> -->
     </div>
   </div>
 </div>
