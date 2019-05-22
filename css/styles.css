@@ -186,6 +186,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+  .about .leftImg img {
+    height: 100%;
+    width: auto; }
   .about a {
     color: black;
     border-bottom: 0.05em solid black; }
