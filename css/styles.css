@@ -189,7 +189,8 @@ header nav {
     color: white; }
     header nav a:hover {
       cursor: pointer;
-      color: #E8E8E8; }
+      color: #E8E8E8;
+      border-bottom: 1em solid white; }
   header nav .navbar-brand img {
     height: 5em;
     width: auto; }
