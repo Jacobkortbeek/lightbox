@@ -33,7 +33,7 @@
     <?php if( $footer ) : ?>
     <div class="row">
       <div class="col-md-2">
-        <img src="<?php $footer['lightbox_logo']['url']; ?>" alt="">
+        <img src="<?php $footer['lightbox_logo']; ?>" alt="">
       </div>
       <div class="col-md-10">
         ©2019 Interiors by Dapa | <a href="<?php $footer['erms_and_conditions_page_link']; ?>">Terms & Conditons</a> | <a href="<?php $footer['privacy_policy_page_link']; ?>">Privacy Policy</a>
