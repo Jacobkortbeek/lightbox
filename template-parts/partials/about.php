@@ -6,7 +6,9 @@
       </div>
       <div class="col-lg-4 offset-md-2 rightContent fullHeight fullCenterColumn">
         <img src="<?php the_sub_field( 'open_quote_image' ); ?>" alt="">
+          <div class="fontLg">
 
+          </div>
           <?php the_sub_field( 'founders_quote' ); ?>
         <img src="<?php the_sub_field( 'close_quote_image' ); ?>" alt="">
         <div class="prox fontSm">
