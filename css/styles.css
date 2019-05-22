@@ -185,6 +185,8 @@
 header nav {
   background-color: #11161E;
   opacity: 75%; }
+  header nav a {
+    color: white; }
 
 footer {
   background-color: #0F161D;
