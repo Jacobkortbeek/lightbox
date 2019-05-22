@@ -144,3 +144,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+
+.about {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .about .leftImg {
+    background-color: red; }
