@@ -176,7 +176,8 @@
     font-size: 2em; }
   .portfolio a {
     color: black;
-    border-bottom: 0.05em solid black; }
+    border-bottom: 0.05em solid black;
+    float: right; }
     .portfolio a:hover {
       cursor: pointer;
       color: black; }
