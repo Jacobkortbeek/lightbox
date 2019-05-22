@@ -15,7 +15,7 @@
     </div>
 
     <?php endif; ?>
-    <div class="row">
+    <div class="row socialContainer">
     <?php
       while ( have_rows('footer', 'option') ): the_row();
         while ( have_rows('social_media') ): the_row();
