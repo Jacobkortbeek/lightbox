@@ -208,6 +208,8 @@ header nav {
   header nav .navbar-brand img {
     height: 5em;
     width: auto; }
+  header nav .navbar-toggler {
+    background-color: red; }
 
 footer {
   background-color: #0F161D;
