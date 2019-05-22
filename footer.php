@@ -16,12 +16,22 @@
       </div>
     </div>
 
-  <?php endif; ?>
+    <?php endif; ?>
+
+    <?php
+      while ( have_rows('footer', 'option') ): the_row();
+        while ( have_rows('social_media') ): the_row();
+     ?>
     <div class="row">
       <div class="col-md-4">
-        <a href="#" target="_blank"><img src="" alt=""></a>
+        <a href="<?php the_sub_field('social_link'); ?>" target="_blank"><img src="<?php the_sub_field('social_icon'); ?>" alt="social icon"></a>
       </div>
     </div>
+    <?php
+      endwhile;
+        endwhile;
+    ?>
+
   </div>
 <?php wp_footer(); ?>
 </footer>
