@@ -3,11 +3,20 @@
     <div class="row">
       <img src="<?php the_field( 'logo', 'option' ); ?>" alt="">
     </div>
+
+    <?php
+      $footer = get_field('footer', 'option');
+      if( $footer ):
+    ?>
+
+
     <div class="row">
       <div class="col-md-4">
-        <?php the_field( 'office_address', 'option' ); ?> | <?php the_field( 'phone_number', 'option' ); ?> | <?php the_field( 'email_address', 'option' ); ?>
+        <?php echo $footer['office_address']; ?> | <?php echo $footer['office_address']; ?> | <?php echo $footer['office_address']; ?>
       </div>
     </div>
+
+  <?php endif; ?>
     <div class="row">
       <div class="col-md-4">
         <a href="#" target="_blank"><img src="" alt=""></a>
