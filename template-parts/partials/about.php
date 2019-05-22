@@ -7,7 +7,7 @@
         <div class="col-lg-4 offset-md-2 rightContent fullHeight fullCenterColumn">
       <div class="container">
         <div class="row padAll">
-          <img class="float-left" src="<?php the_sub_field( 'open_quote_image' ); ?>" alt="">
+          <img src="<?php the_sub_field( 'open_quote_image' ); ?>" alt="">
             <div class="fontLg">
               <?php the_sub_field( 'founders_quote' ); ?>
             </div>

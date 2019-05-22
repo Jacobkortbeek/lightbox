@@ -190,7 +190,7 @@
     background-color: red; }
     .about .leftImg img {
       background-color: blue;
-      height: 100%;
+      height: auto;
       width: auto; }
   .about a {
     color: black;
