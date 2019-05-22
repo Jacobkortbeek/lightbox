@@ -1,4 +1,4 @@
-<div class="portfolio" style="background-image: url('<?php the_sub_field( 'background_image' ); ?>">
+<div class="about" style="background-image: url('<?php the_sub_field( 'background_image' ); ?>">
   <div class="container-fluid fullHeight fullCenterLeft">
     <div class="row">
       <div class="col-md-6">
