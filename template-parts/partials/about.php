@@ -2,7 +2,7 @@
   <div class="container-fluid fullHeight">
     <div class="row fullHeight">
       <div class="col-lg-6 leftImg fullHeight">
-        <img src="<?php the_sub_field( 'founders_image' ); ?>" alt="Founders Images">
+        <img class="float-left" src="<?php the_sub_field( 'founders_image' ); ?>" alt="Founders Images">
       </div>
         <div class="col-lg-4 offset-md-2 rightContent fullHeight fullCenterColumn">
       <div class="container">
