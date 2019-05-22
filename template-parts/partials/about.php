@@ -4,6 +4,7 @@
       <div class="col-lg-6 leftImg fullHeight">
         <img src="<?php the_sub_field( 'founders_image' ); ?>" alt="Founders Images">
       </div>
+        <div class="col-lg-4 offset-md-2">
       <div class="container">
         <div class="row">
           <img class="float-left" src="<?php the_sub_field( 'open_quote_image' ); ?>" alt="">
@@ -26,6 +27,14 @@
         </div>
       </div>
       </div>
+    </div>
+      <!-- <div class="col-lg-4 offset-md-2 rightContent fullHeight fullCenterColumn">
+
+
+
+
+
+      </div> -->
     </div>
   </div>
 </div>
