@@ -187,3 +187,6 @@
 footer {
   background-color: #0F161D;
   color: #ffffff; }
+  footer .footerLogo {
+    height: auto;
+    width: 30%; }
