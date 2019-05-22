@@ -15,9 +15,13 @@ if( have_rows('sections') ):
 
         get_template_part( 'template-parts/partials/portfolio' );
 
-        elseif( get_row_layout() == 'about' ):
+      elseif( get_row_layout() == 'about' ):
 
-          get_template_part( 'template-parts/partials/about' );
+        get_template_part( 'template-parts/partials/about' );
+
+      elseif( get_row_layout() == 'to_top' ):
+
+        get_template_part( 'template-parts/partials/to-top' );
 
       endif;
 
