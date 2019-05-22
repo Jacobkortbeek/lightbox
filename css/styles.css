@@ -187,8 +187,8 @@
   background-position: center;
   background-size: cover; }
   .about .leftImg img {
-    height: 50%;
-    width: auto; }
+    height: auto;
+    width: 100%; }
   .about a {
     color: black;
     border-bottom: 0.05em solid black; }
