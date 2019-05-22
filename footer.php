@@ -1,6 +1,6 @@
 <footer>
   <div class="container-fluid">
-    <div class="row footerLogo">
+    <div class="row footerLogo padAll">
       <img src="<?php the_field( 'logo', 'option' ); ?>" alt="">
     </div>
 
@@ -35,5 +35,5 @@
   </div>
 <?php wp_footer(); ?>
 </footer>
-</body> 
+</body>
 </html>
