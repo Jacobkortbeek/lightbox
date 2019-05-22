@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @font-face {
     font-family: 'PlayfairDisplay';
     src: url('Fonts/Playfair_Display/PlayfairDisplay-Black.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 200;
     font-style: normal; }
 
 @font-face {
