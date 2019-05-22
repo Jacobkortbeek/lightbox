@@ -189,6 +189,7 @@
   .about .leftImg {
     background-color: red; }
     .about .leftImg img {
+      background-color: blue;
       height: 100%;
       width: auto; }
   .about a {
