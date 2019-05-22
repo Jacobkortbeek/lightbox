@@ -26,9 +26,7 @@
     <?php
 
   				      $defaults = array(
-  				        'container' => 'ul',
-  				        'theme_location' => 'primary-menu',
-  				        'menu_class' => 'navbar-nav'
+  				        'theme_location' => 'primary-menu'
   				      );
 
   				      wp_nav_menu( $defaults );
