@@ -15,7 +15,7 @@
   </button>
 
   <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-aut justify-content-endo">
+    <ul class="navbar-nav ml-auto justify-content-end">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
