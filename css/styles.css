@@ -177,12 +177,12 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  overflow: hidden; }
+  background-size: cover; }
   .about .leftImg img {
     height: 50%;
     width: auto; }
   .about .rightContent {
+    background-color: blue;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
