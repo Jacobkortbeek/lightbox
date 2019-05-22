@@ -210,6 +210,8 @@ header nav {
     width: auto; }
   header nav .navbar-toggler {
     background-color: red; }
+    header nav .navbar-toggler .navbar-toggler-icon {
+      color: white; }
 
 footer {
   background-color: #0F161D;
