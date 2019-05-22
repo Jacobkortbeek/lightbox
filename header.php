@@ -27,7 +27,7 @@
 
   				      $defaults = array(
                   'container' => 'ul',
-  				        'menu_class' => 'navbar-nav ml-auto justify-content-end',
+  				        'menu_class' => 'navbar-nav ml-auto',
   				        'theme_location' => 'primary-menu',
   				      );
 
