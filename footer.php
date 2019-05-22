@@ -5,13 +5,7 @@
     </div>
     <div class="row">
       <div class="col-md-4">
-        content
-      </div>
-      <div class="col-md-4">
-        content
-      </div>
-      <div class="col-md-4">
-        content
+        content | Content | Content
       </div>
     </div>
     <div class="row">
