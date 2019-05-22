@@ -4,4 +4,4 @@ jQuery(document).ready(function($) {
     $('header nav li a').addClass('nav-link');
     console.log("added class");
   });
-}
+});
