@@ -1,0 +1,17 @@
+<div class="portfolio" style="background-image: url('<?php the_sub_field( 'background_image' ); ?>">
+  <div class="container-fluid fullHeight fullCenterLeft">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="<?php the_sub_feild( 'founders_image' ); ?>" alt="Founders Images">
+      </div>
+      <div class="col-md-6">
+        <img src="<?php the_sub_feild( 'open_quote_image' ); ?>" alt="">
+        <?php the_sub_field( 'founders_quote' ); ?>
+        <img src="<?php the_sub_feild( 'close_quote_image' ); ?>" alt="">
+        <?php the_sub_field( 'quote_credit' ); ?>
+        <?php the_sub_field( 'about_text' ); ?>
+        <a href="<?php the_sub_field('button_link'); ?>"><?php the_sub_field('button_text'); ?></a>
+      </div>
+    </div>
+  </div>
+</div>

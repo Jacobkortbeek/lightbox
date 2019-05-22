@@ -15,6 +15,10 @@ if( have_rows('sections') ):
 
         get_template_part( 'template-parts/partials/portfolio' );
 
+        elseif( get_row_layout() == 'about' ):
+
+          get_template_part( 'template-parts/partials/about' );
+
       endif;
 
     endwhile;
