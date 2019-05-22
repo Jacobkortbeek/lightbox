@@ -32,10 +32,10 @@
     </div>
 
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-2">
         <a href="#" target="_blank"> <img src="" alt=""></a>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-10">
         ©2019 Interiors by Dapa | <a href="#">Terms & Conditons</a> | <a href="#">Privacy Policy</a>
       </div>
     </div>
