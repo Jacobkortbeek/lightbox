@@ -5,11 +5,11 @@
         <img src="<?php the_sub_field( 'founders_image' ); ?>" alt="Founders Images">
       </div>
       <div class="col-lg-4 offset-md-2 rightContent fullHeight fullCenterColumn">
-        <img src="<?php the_sub_field( 'open_quote_image' ); ?>" alt="">
+        <img class="float-left" src="<?php the_sub_field( 'open_quote_image' ); ?>" alt="">
           <div class="fontLg">
             <?php the_sub_field( 'founders_quote' ); ?>
           </div>
-        <img src="<?php the_sub_field( 'close_quote_image' ); ?>" alt="">
+        <img class="float-right" src="<?php the_sub_field( 'close_quote_image' ); ?>" alt="">
         <div class="prox fontSm">
         <?php the_sub_field( 'quote_credit' ); ?>
         <?php the_sub_field( 'about_text' ); ?>
