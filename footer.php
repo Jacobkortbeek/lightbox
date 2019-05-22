@@ -31,7 +31,7 @@
     ?>
     </div>
     <?php if( $footer ) : ?>
-    <div class="row copyright">
+    <div class="row copyright padAll">
       <div class="col-md-2 lightbox-logo">
         <img src="<?php echo $footer['lightbox_logo']; ?>" alt="">
       </div>
