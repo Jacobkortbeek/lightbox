@@ -11,9 +11,7 @@
 
 
     <div class="row">
-      <div class="col-md-4">
-        <?php echo $footer['office_address']; ?> | <?php echo $footer['office_address']; ?> | <?php echo $footer['office_address']; ?>
-      </div>
+      <?php echo $footer['office_address']; ?> | <?php echo $footer['office_address']; ?> | <?php echo $footer['office_address']; ?>
     </div>
 
     <?php endif; ?>
