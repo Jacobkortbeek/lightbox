@@ -9,7 +9,7 @@
         <div class="row padAll">
           <img src="<?php the_sub_field( 'open_quote_image' ); ?>" alt="">
             <div class="fontLg">
-              <?php the_sub_field( 'founders_quote' ); ?>
+              <p><?php the_sub_field( 'founders_quote' ); ?></p>
             </div>
             <div class="d-flex justify-content-end">
               <img class="float-right" src="<?php the_sub_field( 'close_quote_image' ); ?>" alt="">
@@ -25,7 +25,7 @@
         <div class="row padAll">
           <a href="<?php the_sub_field('button_link'); ?>"><?php the_sub_field('button_text'); ?></a>
         </div>
-      </div>  
+      </div>
       </div>
     </div>
     </div>
