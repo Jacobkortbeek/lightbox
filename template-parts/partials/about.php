@@ -1,6 +1,6 @@
 <div class="about" style="background-image: url('<?php the_sub_field( 'background_image' ); ?>">
-  <div class="container-fluid fullHeight">
-    <div class="row fullHeight">
+  <div class="container-fluid">
+    <div class="row">
       <div class="col-lg-6 leftImg">
         <img class="float-left" src="<?php the_sub_field( 'founders_image' ); ?>" alt="Founders Images">
       </div>
